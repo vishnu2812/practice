@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Passions+Conflict&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo" style="color: rgb(255, 238, 0); font-size: large">Food<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#expert">Expert</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+        <h2 style="color: antiquewhite; font-size: 55px;" >Always good choice</h2>
+        <p>Zomato was founded as FoodieBay in 2008, and was renamed Zomato on 18 January 2010 as Zomato Media Pvt. Ltd.[11][12] In 2011, it expanded across India to Delhi NCR, Mumbai, Bangalore, Chennai, Pune, Ahmedabad and Hyderabad.[13] In 2012, it expanded operations internationally in several countries, including the United Arab Emirates, Sri Lanka,[14] Qatar,[15] the United Kingdom,[16] the Philippines,[15] and South Africa.[17] In 2013, expanded to in New Zealand,[18] Turkey, Brazil and Indonesia, with website and apps available in Turkish, Portuguese, Indonesian and English languages.[19] In April 2014, it launched in Portugal, which was followed by launches in Canada, Lebanon and Ireland in 2015.
+
+        </p>        
+        <a href="#" class="btn">our menu</a>
+        </div>
+    </section>
+    <script>
+        window.addEventListener('scroll',function(){
+            const header=document.querySelector('header');
+            header.ClassList.toggle("sticky",window.scrolly>0);
+        });
+    </script>
+</body>
+</html>
